@@ -1,0 +1,155 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "YYS4046280CIC_STATUS",
+    "originalLanguage": "en"
+  },
+  "externalName": "YYS4046280CIC_STATUS",
+  "type": "text",
+  "typeDetails": {
+    "length": 50
+  },
+  "uiTexts": [
+    {
+      "language": "en",
+      "componentKind": "main",
+      "componentIdentifier": "",
+      "fieldLabel": "CIC_STATUS_GitHub",
+      "fieldTooltip": "CIC_STATUS_GitHub",
+      "fieldHeading": "CIC_STATUS_GitHub",
+      "fieldMediumLabel": "CIC_STATUS_GitHub",
+      "fieldShortLabel": "CIC_STATUS"
+    }
+  ],
+  "extendedBusinessContexts": [
+    {
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "businessContext": "PROJECT_BILLING_ELEMENT"
+    },
+    {
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "businessContext": "SD_SALESDOCITEM"
+    }
+  ],
+  "extendedCdsViews": [
+    {
+      "cdsViewName": "A_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "A_BILLINGDOCUMENTREQUEST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLGDOCREQWORKLIST",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCREQUESTOBJPG",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENTFS",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "C_BILLINGDOCUMENT_F0797",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENT",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTBASIC",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENT",
+      "businessContext": "SD_SALESDOC"
+    },
+    {
+      "cdsViewName": "I_SALESDOCUMENTITEM",
+      "businessContext": "SD_SALESDOCITEM"
+    },
+    {
+      "cdsViewName": "R_BILLINGDOCUMENTTP",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "cdsViewName": "R_CUSTOMERRETURNSDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_INBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_OUTBOUNDDELIVERYTP",
+      "businessContext": "LE_SHP_DELIVERY"
+    },
+    {
+      "cdsViewName": "R_PROJECTBILLINGELEMENTTP",
+      "businessContext": "PROJECT_BILLING_ELEMENT"
+    }
+  ],
+  "extendedOdataServices": [
+    {
+      "odataServiceKey": "API_BILLING_DOCUMENT_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "API_BILLING_DOCUMENT_REQUEST_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_CUSTOMER_INVOICES_MANAGE 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_EBDR_MANAGE_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    },
+    {
+      "odataServiceKey": "SD_F2337_EBDR_FS_SRV 0001",
+      "businessContext": "SD_BILLINGDOC"
+    }
+  ],
+  "extendedBusinessScenarios": [
+    {
+      "businessScenario": "PBE_SLSORD_2_BILLGDOC",
+      "dataTransfer": "SLSORD_2_PRJBLGELM"
+    },
+    {
+      "businessScenario": "PBE_SLSORD_2_BILLGDOC",
+      "dataTransfer": "PRJBLGELM_2_BILLGDOCREQ"
+    },
+    {
+      "businessScenario": "SD_BILDOC_HEAD_2_SLSDOC_HEAD",
+      "dataTransfer": "SD_BILDOC_HEAD_2_SLSDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_DELIVERY_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_DELIVERY_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_HEAD_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_HEAD_2_BILDOC_HEAD"
+    },
+    {
+      "businessScenario": "SD_SLSDOC_ITEM_2_BILDOC_HEAD",
+      "dataTransfer": "SD_SLSDOC_ITEM_2_BILDOC_HEAD"
+    }
+  ]
+}
